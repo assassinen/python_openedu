@@ -1,0 +1,90 @@
+Апгрейд московского фаста: 
+1. Скопировать fast_gate-1.3.4_20170523113001+svn74001-DSP-FAST-prd-fast_20170523110457.zip из \\DD_P2DEVOUT.OFFICE.MICEX.COM\Fusion\Releases\Fast\1.3\20170526_fast-d01(10.63.10.232) в директорию /tmp на сервере fast-d01(10.63.10.232)
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.4_20170523113001+svn74001-DSP-FAST-prd-fast_20170523110457.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.4_20170523113001+svn74001-DSP-FAST-prd-fast_20170523110457 
+4. В директории fast_gate-1.3.4_20170523113001+svn74001-DSP-FAST-prd-fast_20170523110457 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория DSP-FAST-prd с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/DSP-FAST-prd/fast/etc/router.ini задать пароль для пользователя FUS_FAST_01D 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh DSP-FAST-prd"
+   ./start_fstg.sh DSP-FAST-prd"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/DSP-FAST-prd/fast/log/" появилась запись «All streams are online»
+
+
+
+Апгрейд казахского фаста: 
+1. Скопировать fast_gate-1.3.64_15052017190727+svn73823-DSP-KZ-prd-fast_20012017140223.zip из \\DD_P2DEVOUT.OFFICE.MICEX.COM\Fusion\Releases\Fast\1.3\20170526_fast-d01(10.63.10.232) в директорию /tmp на сервере fast-d01(10.63.10.232)
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.64_15052017190727+svn73823-DSP-KZ-prd-fast_20012017140223.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.64_15052017190727+svn73823-DSP-KZ-prd-fast_20012017140223 
+4. В директории fast_gate-1.3.64_15052017190727+svn73823-DSP-KZ-prd-fast_20012017140223 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория DSP-KZ-prd с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/DSP-KZ-prd/fast/etc/router.ini задать пароль для пользователя KZ_FAST_D01_ROUTER 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh DSP-KZ-prd"
+   ./start_fstg.sh DSP-KZ-prd"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/DSP-KZ-prd/fast/log/" появилась запись «All streams are online»
+
+
+
+Апгрейд украинского фаста: 
+1. Скопировать fast_gate-1.3.64_15052017190727+svn73823-DSP-UX-prd-fast_20012017140223.zip из \\DD_P2DEVOUT.OFFICE.MICEX.COM\Fusion\Releases\Fast\1.3\20170526_fast-d01(10.63.10.232) в директорию /tmp на сервере fast-d01(10.63.10.232)
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.64_15052017190727+svn73823-DSP-UX-prd-fast_20012017140223.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.64_15052017190727+svn73823-DSP-UX-prd-fast_20012017140223 
+4. В директории fast_gate-1.3.64_15052017190727+svn73823-DSP-UX-prd-fast_20012017140223 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория DSP-UX-prd с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/DSP-UX-prd/fast/etc/router.ini задать пароль для пользователя UX_FAST_D01_ROUTER 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh DSP-UX-prd"
+   ./start_fstg.sh DSP-UX-prd"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/DSP-UX-prd/fast/log/" появилась запись «All streams are online»
+
+
+
+Апгрейд московского фаста: 
+1. Скопировать fast_gate-1.3.4_20170523113001+svn74001-DSP-FAST-prd_reserve-fast_20170523110457.zip из \\DD_P2DEVOUT.OFFICE.MICEX.COM\Fusion\Releases\Fast\1.3\20170526_fast-d02(10.63.10.233) в директорию /tmp на сервере fast-d02(10.63.10.233)
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.4_20170523113001+svn74001-DSP-FAST-prd_reserve-fast_20170523110457.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.4_20170523113001+svn74001-DSP-FAST-prd_reserve-fast_20170523110457 
+4. В директории fast_gate-1.3.4_20170523113001+svn74001-DSP-FAST-prd_reserve-fast_20170523110457 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория DSP-FAST-prd_reserve с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/DSP-FAST-prd_reserve/fast/etc/router.ini задать пароль для пользователя FUS_FAST_03D 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh DSP-FAST-prd_reserve"
+   ./start_fstg.sh DSP-FAST-prd_reserve"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/DSP-FAST-prd_reserve/fast/log/" появилась запись «All streams are online»
+
+
+
+Апгрейд казахского фаста: 
+1. Скопировать fast_gate-1.3.64_15052017190727+svn73823-DSP-KZ-prd_reserve-fast_20012017140223.zip из \\DD_P2DEVOUT.OFFICE.MICEX.COM\Fusion\Releases\Fast\1.3\20170526_fast-d02(10.63.10.233) в директорию /tmp на сервере fast-d02(10.63.10.233)
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.64_15052017190727+svn73823-DSP-KZ-prd_reserve-fast_20012017140223.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.64_15052017190727+svn73823-DSP-KZ-prd_reserve-fast_20012017140223 
+4. В директории fast_gate-1.3.64_15052017190727+svn73823-DSP-KZ-prd_reserve-fast_20012017140223 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория DSP-KZ-prd_reserve с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/DSP-KZ-prd_reserve/fast/etc/router.ini задать пароль для пользователя KZ_FAST_DRZ_ROUTER 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh DSP-KZ-prd_reserve"
+   ./start_fstg.sh DSP-KZ-prd_reserve"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/DSP-KZ-prd_reserve/fast/log/" появилась запись «All streams are online»
+
+
+
+Апгрейд украинского фаста: 
+1. Скопировать fast_gate-1.3.64_15052017190727+svn73823-DSP-UX-prd_reserve-fast_20012017140223.zip из \\DD_P2DEVOUT.OFFICE.MICEX.COM\Fusion\Releases\Fast\1.3\20170526_fast-d02(10.63.10.233) в директорию /tmp на сервере fast-d02(10.63.10.233)
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.64_15052017190727+svn73823-DSP-UX-prd_reserve-fast_20012017140223.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.64_15052017190727+svn73823-DSP-UX-prd_reserve-fast_20012017140223 
+4. В директории fast_gate-1.3.64_15052017190727+svn73823-DSP-UX-prd_reserve-fast_20012017140223 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория DSP-UX-prd_reserve с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/DSP-UX-prd_reserve/fast/etc/router.ini задать пароль для пользователя UX_FAST_DRZ_ROUTER 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh DSP-UX-prd_reserve"
+   ./start_fstg.sh DSP-UX-prd_reserve"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/DSP-UX-prd_reserve/fast/log/" появилась запись «All streams are online»
+
+
+

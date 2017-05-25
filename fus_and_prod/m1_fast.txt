@@ -1,0 +1,90 @@
+Апгрейд московского фаста: 
+1. Скопировать fast_gate-1.3.4_20170523113001+svn74001-M1-11-prd-fast_20170523110457.zip из \\DD_P2DEVOUT.OFFICE.MICEX.COM\Fusion\Releases\Fast\1.3\20170526_fast-m01(10.61.10.232) в директорию /tmp на сервере fast-m01(10.61.10.232) 
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.4_20170523113001+svn74001-M1-11-prd-fast_20170523110457.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.4_20170523113001+svn74001-M1-11-prd-fast_20170523110457 
+4. В директории fast_gate-1.3.4_20170523113001+svn74001-M1-11-prd-fast_20170523110457 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория M1-11-prd с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/M1-11-prd/fast/etc/router.ini задать пароль для пользователя FUS_FAST_01 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh M1-11-prd"
+   ./start_fstg.sh M1-11-prd"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/M1-11-prd/fast/log/" появилась запись «All streams are online»
+
+
+
+Апгрейд казахского фаста: 
+1. Скопировать fast_gate-1.3.64_15052017190727+svn73823-KZ-prd-fast_20012017140223.zip из \\DD_P2DEVOUT.OFFICE.MICEX.COM\Fusion\Releases\Fast\1.3\20170526_fast-m01(10.61.10.232) в директорию /tmp на сервере fast-m01(10.61.10.232)
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.64_15052017190727+svn73823-KZ-prd-fast_20012017140223.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.64_15052017190727+svn73823-KZ-prd-fast_20012017140223 
+4. В директории fast_gate-1.3.64_15052017190727+svn73823-KZ-prd-fast_20012017140223 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория KZ-prd с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/KZ-prd/fast/etc/router.ini задать пароль для пользователя KZ_FAST_T01_ROUTER 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh KZ-prd"
+   ./start_fstg.sh KZ-prd"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/KZ-prd/fast/log/" появилась запись «All streams are online»
+
+
+
+Апгрейд украинского фаста: 
+1. Скопировать fast_gate-1.3.64_15052017190727+svn73823-UX-prd-fast_20012017140223.zip из \\DD_P2DEVOUT.OFFICE.MICEX.COM\Fusion\Releases\Fast\1.3\20170526_fast-m01(10.61.10.232) в директорию /tmp на сервере fast-m01(10.61.10.232) 
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.64_15052017190727+svn73823-UX-prd-fast_20012017140223.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.64_15052017190727+svn73823-UX-prd-fast_20012017140223 
+4. В директории fast_gate-1.3.64_15052017190727+svn73823-UX-prd-fast_20012017140223 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория UX-prd с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/UX-prd/fast/etc/router.ini задать пароль для пользователя UX_FAST_T01_ROUTER 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh UX-prd"
+   ./start_fstg.sh UX-prd"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/UX-prd/fast/log/" появилась запись «All streams are online»
+
+
+
+Апгрейд московского фаста: 
+1. Скопировать fast_gate-1.3.4_20170523113001+svn74001-M1-11-prd_reserve-fast_20170523110457.zip из \\DD_P2DEVOUT.OFFICE.MICEX.COM\Fusion\Releases\Fast\1.3\20170526_fast-m02(10.61.10.233) в директорию /tmp на сервере fast-m02(10.61.10.233)
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.4_20170523113001+svn74001-M1-11-prd_reserve-fast_20170523110457.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.4_20170523113001+svn74001-M1-11-prd_reserve-fast_20170523110457 
+4. В директории fast_gate-1.3.4_20170523113001+svn74001-M1-11-prd_reserve-fast_20170523110457 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория M1-11-prd_reserve с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/M1-11-prd_reserve/fast/etc/router.ini задать пароль для пользователя FUS_FAST_03 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh M1-11-prd_reserve"
+   ./start_fstg.sh M1-11-prd_reserve"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/M1-11-prd_reserve/fast/log/" появилась запись «All streams are online»
+
+
+
+Апгрейд казахского фаста: 
+1. Скопировать fast_gate-1.3.64_15052017190727+svn73823-KZ-prd_reserve-fast_20012017140223.zip из \\DD_P2DEVOUT.OFFICE.MICEX.COM\Fusion\Releases\Fast\1.3\20170526_fast-m02(10.61.10.233) в директорию /tmp на сервере fast-m02(10.61.10.233)
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.64_15052017190727+svn73823-KZ-prd_reserve-fast_20012017140223.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.64_15052017190727+svn73823-KZ-prd_reserve-fast_20012017140223 
+4. В директории fast_gate-1.3.64_15052017190727+svn73823-KZ-prd_reserve-fast_20012017140223 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория KZ-prd_reserve с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/KZ-prd_reserve/fast/etc/router.ini задать пароль для пользователя KZ_FAST_RZ_ROUTER 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh KZ-prd_reserve"
+   ./start_fstg.sh KZ-prd_reserve"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/KZ-prd_reserve/fast/log/" появилась запись «All streams are online»
+
+
+
+Апгрейд украинского фаста: 
+1. Скопировать fast_gate-1.3.64_15052017190727+svn73823-UX-prd_reserve-fast_20012017140223.zip из \\DD_P2DEVOUT.OFFICE.MICEX.COM\Fusion\Releases\Fast\1.3\20170526_fast-m02(10.61.10.233) в директорию /tmp на сервере fast-m02(10.61.10.233)
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.64_15052017190727+svn73823-UX-prd_reserve-fast_20012017140223.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.64_15052017190727+svn73823-UX-prd_reserve-fast_20012017140223 
+4. В директории fast_gate-1.3.64_15052017190727+svn73823-UX-prd_reserve-fast_20012017140223 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория UX-prd_reserve с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/UX-prd_reserve/fast/etc/router.ini задать пароль для пользователя UX_FAST_RZ_ROUTER 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh UX-prd_reserve"
+   ./start_fstg.sh UX-prd_reserve"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/UX-prd_reserve/fast/log/" появилась запись «All streams are online»
+
+
+

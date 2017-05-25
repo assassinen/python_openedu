@@ -1,0 +1,71 @@
+Апгрейд быстрого фаст-гейта: 
+1. Скопировать fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd-fast_20170523110457.zip из \\dd_p2devout.office.micex.com\Fusion\Releases\Fast\1.3\20170526_ffast-d01(10.63.10.230) в директорию /tmp на сервере ffast-d01(10.63.10.230)
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd-fast_20170523110457.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd-fast_20170523110457 
+4. В директории fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd-fast_20170523110457 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория DSP-FFAST-prd с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/DSP-FFAST-prd/fast/etc/router.ini задать пароль для пользователя FUS_FASTF_01D 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh DSP-FFAST-prd"
+   ./start_fstg.sh DSP-FFAST-prd"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/DSP-FFAST-prd/fast/log/" появилась пара записей: «All streams are online»  и  «All erepl streams are online».
+Команда для проверки:
+grep "All " /app/fusion/DSP-FFAST-prd/fast/log/fastgate*.log
+
+
+
+Апгрейд фаст-гейта с полным ордер-логом: 
+1. Скопировать fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd_ordlog-fast_20170523110457.zip из \\dd_p2devout.office.micex.com\Fusion\Releases\Fast\1.3\20170526_ffast-d01(10.63.10.230) в директорию /tmp на сервере ffast-d01(10.63.10.230)
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd_ordlog-fast_20170523110457.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd_ordlog-fast_20170523110457 
+4. В директории fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd_ordlog-fast_20170523110457 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория DSP-FFAST-prd_ordlog с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/DSP-FFAST-prd_ordlog/fast/etc/router.ini задать пароль для пользователя FUS_FASTFORDLOG_D01 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh DSP-FFAST-prd_ordlog"
+   ./start_fstg.sh DSP-FFAST-prd_ordlog"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/DSP-FFAST-prd_ordlog/fast/log/" появилась запись: «All streams are online»
+Команда для проверки:
+grep "All " /app/fusion/DSP-FFAST-prd_ordlog/fast/log/fastgate*.log
+
+
+
+Апгрейд быстрого фаст-гейта: 
+1. Скопировать fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd_reserve-fast_20170523110457.zip из \\dd_p2devout.office.micex.com\Fusion\Releases\Fast\1.3\20170526_ffast-d02(10.63.10.231) в директорию /tmp на сервере ffast-d02(10.63.10.231)
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd_reserve-fast_20170523110457.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd_reserve-fast_20170523110457 
+4. В директории fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd_reserve-fast_20170523110457 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория DSP-FFAST-prd_reserve с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/DSP-FFAST-prd_reserve/fast/etc/router.ini задать пароль для пользователя FUS_FASTF_03D 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh DSP-FFAST-prd_reserve"
+   ./start_fstg.sh DSP-FFAST-prd_reserve"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/DSP-FFAST-prd_reserve/fast/log/" появилась пара записей: «All streams are online»  и  «All erepl streams are online».
+Команда для проверки:
+grep "All " /app/fusion/DSP-FFAST-prd_reserve/fast/log/fastgate*.log
+
+
+
+Апгрейд фаст-гейта с полным ордер-логом: 
+1. Скопировать fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd_ordlog_reserve-fast_20170523110457.zip из \\dd_p2devout.office.micex.com\Fusion\Releases\Fast\1.3\20170526_ffast-d02(10.63.10.231)  в директорию /tmp на сервере ffast-d02(10.63.10.231)
+2. Выполнить команду "cd /; unzip /tmp/fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd_ordlog_reserve-fast_20170523110457.zip"
+3. Убедиться, что в /app/fusion/ver/ создана директория fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd_ordlog_reserve-fast_20170523110457 
+4. В директории fast_gate-1.3.4_20170523113001+svn74001-DSP-FFAST-prd_ordlog_reserve-fast_20170523110457 выполнить скрипт командой "./link.sh"
+5. Убедиться, что в /app/fusion/ создана директория DSP-FFAST-prd_ordlog_reserve с вложенными директориями, файлами и скриптами
+6. В файле /app/fusion/DSP-FFAST-prd_ordlog_reserve/fast/etc/router.ini задать пароль для пользователя FUS_FASTFORDLOG_D02 
+7. Запустить fast_gate:
+   cd /app/fusion/
+   ./stop_fstg.sh DSP-FFAST-prd_ordlog_reserve"
+   ./start_fstg.sh DSP-FFAST-prd_ordlog_reserve"
+8. Дождаться выхода фаст-гейта в режим онлайна, проверив, что в лог-файлах, расположенных в "/app/fusion/DSP-FFAST-prd_ordlog_reserve/fast/log/" появилась запись: «All streams are online»
+Команда для проверки:
+grep "All " /app/fusion/DSP-FFAST-prd_ordlog_reserve/fast/log/fastgate*.log
+
+
+
+
+
+
